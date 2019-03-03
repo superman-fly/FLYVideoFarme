@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C4DA1F722242D51003318B4 /* FLYAuthorizationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4DA1F622242D51003318B4 /* FLYAuthorizationTool.m */; };
+		0C4DA1FA22242E6A003318B4 /* FLYWriteVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4DA1F922242E6A003318B4 /* FLYWriteVideoViewController.m */; };
+		0CBBD4E021EB61FE006892E6 /* FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBBD4DF21EB61FE006892E6 /* FileManager.m */; };
+		0CBBD4E421EB6376006892E6 /* RecordProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBBD4E321EB6376006892E6 /* RecordProgressView.m */; };
+		0CBBD4E821EB648F006892E6 /* VideoWriteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBBD4E721EB648F006892E6 /* VideoWriteManager.m */; };
+		0CBBD4EB21EB6A25006892E6 /* VideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBBD4EA21EB6A25006892E6 /* VideoModel.m */; };
+		0CBBD4F021EB720C006892E6 /* VideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBBD4EF21EB720C006892E6 /* VideoView.m */; };
+		0CCEE55821CFBA99007618B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEE55721CFBA99007618B2 /* AppDelegate.m */; };
+		0CCEE55B21CFBA99007618B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEE55A21CFBA99007618B2 /* ViewController.m */; };
+		0CCEE55E21CFBA99007618B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CCEE55C21CFBA99007618B2 /* Main.storyboard */; };
+		0CCEE56021CFBA9B007618B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CCEE55F21CFBA9B007618B2 /* Assets.xcassets */; };
+		0CCEE56321CFBA9B007618B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CCEE56121CFBA9B007618B2 /* LaunchScreen.storyboard */; };
+		0CCEE56621CFBA9B007618B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEE56521CFBA9B007618B2 /* main.m */; };
+		0CD0B0F72225840200C7332D /* FLYVideoPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD0B0F62225840200C7332D /* FLYVideoPlayViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C4DA1F522242D51003318B4 /* FLYAuthorizationTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLYAuthorizationTool.h; sourceTree = "<group>"; };
+		0C4DA1F622242D51003318B4 /* FLYAuthorizationTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLYAuthorizationTool.m; sourceTree = "<group>"; };
+		0C4DA1F822242E6A003318B4 /* FLYWriteVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLYWriteVideoViewController.h; sourceTree = "<group>"; };
+		0C4DA1F922242E6A003318B4 /* FLYWriteVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLYWriteVideoViewController.m; sourceTree = "<group>"; };
+		0CBBD4DE21EB61FE006892E6 /* FileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
+		0CBBD4DF21EB61FE006892E6 /* FileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileManager.m; sourceTree = "<group>"; };
+		0CBBD4E221EB6376006892E6 /* RecordProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordProgressView.h; sourceTree = "<group>"; };
+		0CBBD4E321EB6376006892E6 /* RecordProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordProgressView.m; sourceTree = "<group>"; };
+		0CBBD4E621EB648F006892E6 /* VideoWriteManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoWriteManager.h; sourceTree = "<group>"; };
+		0CBBD4E721EB648F006892E6 /* VideoWriteManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoWriteManager.m; sourceTree = "<group>"; };
+		0CBBD4E921EB6A25006892E6 /* VideoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoModel.h; sourceTree = "<group>"; };
+		0CBBD4EA21EB6A25006892E6 /* VideoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoModel.m; sourceTree = "<group>"; };
+		0CBBD4ED21EB7168006892E6 /* GlobalConstDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalConstDefine.h; sourceTree = "<group>"; };
+		0CBBD4EE21EB720C006892E6 /* VideoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoView.h; sourceTree = "<group>"; };
+		0CBBD4EF21EB720C006892E6 /* VideoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoView.m; sourceTree = "<group>"; };
+		0CBBD4F121EB75AD006892E6 /* FLYVideoPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLYVideoPrefixHeader.pch; sourceTree = "<group>"; };
+		0CCEE55321CFBA99007618B2 /* FLYVideoFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLYVideoFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CCEE55621CFBA99007618B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0CCEE55721CFBA99007618B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0CCEE55921CFBA99007618B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0CCEE55A21CFBA99007618B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0CCEE55D21CFBA99007618B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0CCEE55F21CFBA9B007618B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CCEE56221CFBA9B007618B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0CCEE56421CFBA9B007618B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CCEE56521CFBA9B007618B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0CD0B0F52225840200C7332D /* FLYVideoPlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLYVideoPlayViewController.h; sourceTree = "<group>"; };
+		0CD0B0F62225840200C7332D /* FLYVideoPlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLYVideoPlayViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CCEE55021CFBA99007618B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C4DA1F422242D3D003318B4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0C4DA1F522242D51003318B4 /* FLYAuthorizationTool.h */,
+				0C4DA1F622242D51003318B4 /* FLYAuthorizationTool.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0CBBD4D321EB5D1F006892E6 /* VideoWriter */ = {
+			isa = PBXGroup;
+			children = (
+				0CBBD4E521EB6423006892E6 /* Model */,
+				0CBBD4E121EB635F006892E6 /* View */,
+				0CBBD4D421EB5D4C006892E6 /* Tool */,
+				0C4DA1F822242E6A003318B4 /* FLYWriteVideoViewController.h */,
+				0C4DA1F922242E6A003318B4 /* FLYWriteVideoViewController.m */,
+				0CD0B0F52225840200C7332D /* FLYVideoPlayViewController.h */,
+				0CD0B0F62225840200C7332D /* FLYVideoPlayViewController.m */,
+			);
+			path = VideoWriter;
+			sourceTree = "<group>";
+		};
+		0CBBD4D421EB5D4C006892E6 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				0CBBD4DE21EB61FE006892E6 /* FileManager.h */,
+				0CBBD4DF21EB61FE006892E6 /* FileManager.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		0CBBD4E121EB635F006892E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0CBBD4E221EB6376006892E6 /* RecordProgressView.h */,
+				0CBBD4E321EB6376006892E6 /* RecordProgressView.m */,
+				0CBBD4EE21EB720C006892E6 /* VideoView.h */,
+				0CBBD4EF21EB720C006892E6 /* VideoView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0CBBD4E521EB6423006892E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0CBBD4E621EB648F006892E6 /* VideoWriteManager.h */,
+				0CBBD4E721EB648F006892E6 /* VideoWriteManager.m */,
+				0CBBD4E921EB6A25006892E6 /* VideoModel.h */,
+				0CBBD4EA21EB6A25006892E6 /* VideoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0CCEE54A21CFBA99007618B2 = {
+			isa = PBXGroup;
+			children = (
+				0CCEE55521CFBA99007618B2 /* FLYVideoFrame */,
+				0CCEE55421CFBA99007618B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CCEE55421CFBA99007618B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CCEE55321CFBA99007618B2 /* FLYVideoFrame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CCEE55521CFBA99007618B2 /* FLYVideoFrame */ = {
+			isa = PBXGroup;
+			children = (
+				0CCEE55621CFBA99007618B2 /* AppDelegate.h */,
+				0CCEE55721CFBA99007618B2 /* AppDelegate.m */,
+				0CCEE55F21CFBA9B007618B2 /* Assets.xcassets */,
+				0C4DA1F422242D3D003318B4 /* Common */,
+				0CBBD4F121EB75AD006892E6 /* FLYVideoPrefixHeader.pch */,
+				0CBBD4ED21EB7168006892E6 /* GlobalConstDefine.h */,
+				0CCEE56421CFBA9B007618B2 /* Info.plist */,
+				0CCEE56121CFBA9B007618B2 /* LaunchScreen.storyboard */,
+				0CCEE56521CFBA9B007618B2 /* main.m */,
+				0CCEE55C21CFBA99007618B2 /* Main.storyboard */,
+				0CBBD4D321EB5D1F006892E6 /* VideoWriter */,
+				0CCEE55921CFBA99007618B2 /* ViewController.h */,
+				0CCEE55A21CFBA99007618B2 /* ViewController.m */,
+			);
+			path = FLYVideoFrame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CCEE55221CFBA99007618B2 /* FLYVideoFrame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CCEE57F21CFBA9B007618B2 /* Build configuration list for PBXNativeTarget "FLYVideoFrame" */;
+			buildPhases = (
+				0CCEE54F21CFBA99007618B2 /* Sources */,
+				0CCEE55021CFBA99007618B2 /* Frameworks */,
+				0CCEE55121CFBA99007618B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLYVideoFrame;
+			productName = FLYVoideFrame;
+			productReference = 0CCEE55321CFBA99007618B2 /* FLYVideoFrame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CCEE54B21CFBA99007618B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Fly;
+				TargetAttributes = {
+					0CCEE55221CFBA99007618B2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 0CCEE54E21CFBA99007618B2 /* Build configuration list for PBXProject "FLYVideoFrame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CCEE54A21CFBA99007618B2;
+			productRefGroup = 0CCEE55421CFBA99007618B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CCEE55221CFBA99007618B2 /* FLYVideoFrame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CCEE55121CFBA99007618B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CCEE56321CFBA9B007618B2 /* LaunchScreen.storyboard in Resources */,
+				0CCEE56021CFBA9B007618B2 /* Assets.xcassets in Resources */,
+				0CCEE55E21CFBA99007618B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CCEE54F21CFBA99007618B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CBBD4F021EB720C006892E6 /* VideoView.m in Sources */,
+				0CCEE55B21CFBA99007618B2 /* ViewController.m in Sources */,
+				0CD0B0F72225840200C7332D /* FLYVideoPlayViewController.m in Sources */,
+				0CCEE56621CFBA9B007618B2 /* main.m in Sources */,
+				0CBBD4E421EB6376006892E6 /* RecordProgressView.m in Sources */,
+				0CBBD4E821EB648F006892E6 /* VideoWriteManager.m in Sources */,
+				0C4DA1F722242D51003318B4 /* FLYAuthorizationTool.m in Sources */,
+				0C4DA1FA22242E6A003318B4 /* FLYWriteVideoViewController.m in Sources */,
+				0CCEE55821CFBA99007618B2 /* AppDelegate.m in Sources */,
+				0CBBD4EB21EB6A25006892E6 /* VideoModel.m in Sources */,
+				0CBBD4E021EB61FE006892E6 /* FileManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0CCEE55C21CFBA99007618B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CCEE55D21CFBA99007618B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0CCEE56121CFBA9B007618B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CCEE56221CFBA9B007618B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CCEE57D21CFBA9B007618B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0CCEE57E21CFBA9B007618B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CCEE58021CFBA9B007618B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6MNK66928H;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/flymbp/Desktop/FLYVideoFrame/FLYVideoFrame/FLYVideoPrefixHeader.pch;
+				INFOPLIST_FILE = FLYVideoFrame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fly.video;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0CCEE58121CFBA9B007618B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6MNK66928H;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/flymbp/Desktop/FLYVideoFrame/FLYVideoFrame/FLYVideoPrefixHeader.pch;
+				INFOPLIST_FILE = FLYVideoFrame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fly.video;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CCEE54E21CFBA99007618B2 /* Build configuration list for PBXProject "FLYVideoFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CCEE57D21CFBA9B007618B2 /* Debug */,
+				0CCEE57E21CFBA9B007618B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CCEE57F21CFBA9B007618B2 /* Build configuration list for PBXNativeTarget "FLYVideoFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CCEE58021CFBA9B007618B2 /* Debug */,
+				0CCEE58121CFBA9B007618B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CCEE54B21CFBA99007618B2 /* Project object */;
+}
